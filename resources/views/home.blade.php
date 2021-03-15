@@ -7,7 +7,11 @@
 @stop
 
 @section('content')
-    <p>Welcome to this beautiful admin panel.</p>
+    @if ($user->roles_id == 1)
+        Anda login sebagai Admin
+    @else
+        Anda login sebagai User
+    @endif
 @stop
 
 @section('css')
