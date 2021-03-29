@@ -19,7 +19,7 @@ class CreateUserSeeder extends Seeder
             [
                 'name' => 'isUser',
                 'username' => 'isUser',
-                'email' => 'user@mail.com',
+                'email' => 'mochresturespati2@gmail.com',
                 'password' => bcrypt('12345'),
                 'photo' => 'user.jpg',
                 'roles_id' => 2

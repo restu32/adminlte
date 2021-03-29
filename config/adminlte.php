@@ -231,21 +231,21 @@ return [
         ],
         [
             'text' => 'Buku',
-            'url' => 'buku',
-            'icon' => 'fa fa-book ',
+            'url' => 'admin/books',
+            'icon' => 'fas fa-fw fa-book ',
             'can' => 'isAdmin',
         ],
         [
             'text' => 'blog',
             'url'  => 'admin/blog',
             'can'  => 'manage-blog',
-        ],
+        ],  
         [
             'text'        => 'pages',
             'url'         => 'admin/pages',
             'icon'        => 'far fa-fw fa-file',
             'label'       => 4,
-            'label_color' => 'success',
+            'label_color' => 'success', 
         ],
         ['header' => 'account_settings'],
         [
